@@ -2,7 +2,26 @@ package curso.exercicios;
 
 import java.util.Scanner;
 
-public class vetora {
+
+/*
+Faça um programa que leia um número inteiro positivo N (máximo = 10)
+e depois N números inteiros e armazene-os em um vetor. Em seguida,
+mostrar na tela todos os números negativos lidos.
+
+Exemplo:
+Quantos numeros voce vai digitar? 4
+Digite um numero: 8
+Digite um numero: -2
+Digite um numero: 9
+Digite um numero: 10
+
+NUMEROS NEGATIVOS:
+-2
+
+ */
+
+
+public class exercicio_vetor1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
